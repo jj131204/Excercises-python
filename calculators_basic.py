@@ -13,15 +13,15 @@ operator = input("entry the operator (+ - * /): ")
 
 try:
     number1_ = int(number1)
-except ValueError:
-    number1_ = "incorrect"
+except:
+    number1_ = 'incorrect'
 
 try:
     number2_ = int(number2)
-except ValueError:
-    number2_ = "incorrect"
+except:
+    number2_ = 'incorrect'
 
-if number1_ is "incorrect" or number2_ is "incorrect":
+if number1_ is 'incorrect' or number2_ is 'incorrect':
     print("invalid data type")
 
 else:
@@ -40,6 +40,5 @@ else:
         else:
             result = number1_ / number2_
             print(result)
-
     else:
         print("incorrect operator")
