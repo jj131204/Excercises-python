@@ -33,14 +33,14 @@ else:
 
         elif operator is "-":
             result = number1_ - number2_
-            print("Tphe answer is:", result)
+            print("The answer is:", result)
 
         elif operator is "*":
             result = number1_ * number2_
-            print("Tphe answer is:", result)
+            print("The answer is:", result)
 
         else:
             result = number1_ / number2_
-            print("Tphe answer is:", result)
+            print("The answer is:", result)
     else:
         print("incorrect operator")
